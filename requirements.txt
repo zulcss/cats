@@ -1,0 +1,6 @@
+Flask
+Flask-SQLAlchemy
+flask-restless
+BeautifulSoup4
+lxml
+Flask-Restless

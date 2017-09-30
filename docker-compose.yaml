@@ -1,0 +1,12 @@
+version: '2'
+services:
+  cat-api:
+    container_name: cat-api
+    environment:
+     - API_KEY=MjI4NTA2
+    command: python app.py
+    build: .
+    volumes:
+     - ./data:/app/data
+    ports:
+     - "5000:5000"
